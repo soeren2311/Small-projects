@@ -31,3 +31,16 @@ else:
 
 ################################################################################################
 ################################################################################################
+
+## Convert meter and foot
+print('Conversion from meter to foot or foot to meter')
+length = int(input('What length?: '))
+unit = input('Enter (M) for Meter or (F) for Foot: ')
+if unit.upper() == "M":
+    converted = length / 3.28084
+    converted_round = round(converted, 2)
+    print(f"The length in meter is {converted_round} meter")
+else:
+    converted = length * 3.28084
+    converted_round = round(converted, 2)
+    print(f'The length in foot is {converted_round} foot')
