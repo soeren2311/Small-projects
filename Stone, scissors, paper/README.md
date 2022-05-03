@@ -1,1 +1,1 @@
-
+A minigame called "Stone, scissors, paper". It's possible to play against the computer. I will try to improve my code for more features. For example, it would be interesting to develop a code in which there is a point account or in which the stone gets a higher weight etc.
