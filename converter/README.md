@@ -1,4 +1,2 @@
-# Small-projects
-Smaller projects in which I deepn my knowledge with python
-I develop here among other things such projects as a converter of units e.g. from pounds to kilos or also 
-smaller games like rock, scissors, paper etc.
+# Small-projects (converter)
+In this project I create code to convert units. This is only for the purpose of testing my knowledge in python
