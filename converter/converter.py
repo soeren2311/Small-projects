@@ -44,3 +44,19 @@ else:
     converted = length * 3.28084
     converted_round = round(converted, 2)
     print(f'The length in foot is {converted_round} foot')
+
+################################################################################################
+################################################################################################
+
+## Convert meter and yard
+print('Conversion from meter to yard or yard to meter')
+length = int(input('What length?: '))
+unit = input('Enter (M) for Meter or (Y) for Yard: ')
+if unit.upper() == "M":
+    converted = length / 1.09361
+    converted_round = round(converted, 2)
+    print(f"The length in meter is {converted_round} meter")
+else:
+    converted = length * 1.09361
+    converted_round = round(converted, 2)
+    print(f'The length in yard is {converted_round} yard')
