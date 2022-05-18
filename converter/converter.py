@@ -1,7 +1,7 @@
 ## Converter of units
 
 ## Convert Kilogram and Pound
-print('Conversion from liters to pounds or pounds to liters')
+print('Conversion from kilogram to pounds or pounds to kilogram')
 quantity = int(input('What amount?: '))
 unit = input('Enter (K) for kilogram or (P) for pound: ')
 if unit.upper() == "K":
