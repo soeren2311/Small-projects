@@ -60,3 +60,19 @@ else:
     converted = length * 1.09361
     converted_round = round(converted, 2)
     print(f'The length in yard is {converted_round} yard')
+    
+################################################################################################
+################################################################################################
+
+## Convert inc and Centimeter
+print('Conversion from inch to centimeter or centimeter to inch')
+length = int(input('What length?: '))
+unit = input('Enter (I) for Inch or (C) for Centimeter: ')
+if unit.upper() == "I":
+    converted = length / 2.54
+    converted_round = round(converted, 2)
+    print(f"The length in inch is {converted_round} inch")
+else:
+    converted = length * 2.54
+    converted_round = round(converted, 2)
+    print(f'The length in centimeter is {converted_round} centimeter')
