@@ -46,7 +46,7 @@ for question in questions:
 
 
 print("...........................")
-print("   DEIN ERGEBNIS LAUTET    ")
+print("   Dein ERGEBNIS lautet    ")
 print("...........................")
 
 print("Korrekte Antworten: ", end="")
